@@ -1,0 +1,71 @@
+.thedownballot{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+/* or 138% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+color: #252B42;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nyccouncil{
+  font-style:italic;
+  font-family: Montserrat;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+/* or 138% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+color: #252B42;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+@media (min-width: 400px){
+  .nyccouncil{
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .thedownballot{
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 400px){
+  .nyccouncil{
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .thedownballot{
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.randombox{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#dummy{
+  width: 80%;
+  height: 80%;
+  background: #FFFEFE;
+  opacity: 0.3;
+  box-shadow: 2px 4px 20px 5px rgba(69, 63, 63, 0.25);
+  border-radius: 5px;
+}
